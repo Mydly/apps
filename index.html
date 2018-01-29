@@ -31,7 +31,7 @@
     <script type="text/javascript">
         window.onload = function(){
 			var appname = getVal('name');
-			var url = "http:\/\/ming.a.com/upload/app/"+appname+"/"+appname+".plist";
+			var url = "https://raw.githubusercontent.com/Mydly/apps/master/apps/"+appname+"/"+appname+".plist";
 			var btn = document.getElementById("btn");
 			var href = "itms-services:\/\/?action=download-manifest&amp;url="+url;
 			btn.setAttribute("href",href);
