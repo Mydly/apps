@@ -1,0 +1,28 @@
+[ {
+	 "name":"clipBoard",
+	 "class":"UZClipBoard",
+	 "methods":["set","get","setListener","removeListener"]
+ }
+,{
+	 "name":"FNScanner",
+	 "class":"UZFNScanner",
+	 "methods":["open","openScanner","openView","closeView","decodeImg","encodeImg","switchLight","setFrame","onPause","onResume"]
+ }
+,{
+    "name":"mam",
+    "class":"UZMAM",
+    "methods":["checkUpdate","addEvent","execCommand","showToastAlert","hideToastAlert"],
+    "syncMethods":["syncExecCommand"],
+    "launchClassMethod":"launch"
+}
+, {
+     "name":"MNPopups",
+     "class":"MNPopups",
+     "methods":["open","close","hide","show","reloadData","deleteItem","insertItem","updateItem"]
+ }
+, {
+     "name":"UIPullRefresh",
+     "class":"UZRefreshBase",
+     "methods":["setCustomRefreshHeaderInfo","refreshHeaderLoading","refreshHeaderLoadDone"]
+ }
+]
